@@ -1,5 +1,5 @@
 export default function createGameElement() {
-  const el = document.createElement('DIV');
+  tdocument.createElement('DIV');
   el.classList.add('game-item');
 
   el.innerHTML = `<h3 class="game-item__name">${item.name}</h3>`;
