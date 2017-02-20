@@ -3,6 +3,7 @@
 QUnit.module('Twitch Game Page');
 import showGamesInList from '../../app/twitch/add-games-to-list';
 
+
 const itemOne = {
   name: 'StarCraft II',
   popularity: 2619,
