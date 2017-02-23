@@ -4,3 +4,32 @@
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome';
 @import 'box-sizing';
+@import 'nav';
+
+$c-white: #eee;
+$c-sidebar: #1a141d;
+
+* {
+  color: $c-white;
+}
+
+.sidebar {
+  background-color: $c-sidebar;
+  max-width: 20%;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+
+
+.middle {
+  background-color: blue;
+}
+
+.right {
+  background-color: green;
+}
