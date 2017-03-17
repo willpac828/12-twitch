@@ -7,7 +7,7 @@
 //   el.innerHTML = `<img src="item.box.large" class="game-item__pic" alt="Starcraft II">
 //
 //   return el;
-
-
+//
+//
 //
 // };
