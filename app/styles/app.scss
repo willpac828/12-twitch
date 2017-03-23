@@ -8,9 +8,12 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 $c-white: #eee;
 $c-sidebar: #1a141d;
+$c-primary: #a755c6;
+$c-secondary: #682f7d;
 
 * {
   color: $c-white;
+  font-family: sans-serif;
 }
 
 .sidebar {
@@ -24,6 +27,10 @@ $c-sidebar: #1a141d;
   margin: auto;
 }
 
+.sidebar-heading {
+  font-size: 1rem;
+  border-bottom: 1px solid $c-secondary;
+}
 
 
 .middle {
