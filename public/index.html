@@ -5,79 +5,112 @@
   <meta charset="utf-8">
   <title>12-twitch</title>
   <link rel="stylesheet" href="/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 </head>
 
 <body>
   <div class="sidebar">
-    <div class="container">
+    <div class="sidebar__container">
       <div class="nav">
         <img src="http://jsa.x10host.com/twitch/assets/Twitch_Logo_White.png" alt="Twitch Logo" class="nav-logo">
-        <input type="search" class="nav-search" placeholder="search">
-        <i class="fa fa-search" aria-hidden="true"></i>
+          <div class="nav__bar">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="search" class="nav-search" placeholder="search">
+          </div>
       </div>
-      <p class="browse"><i class="fa">#</i>Browse</p>
+      <p class="browse"><i class="fa fa-gamepad" aria-hidden="true"></i>Browse</p>
 
 
-      <h2 class="sidebar-heading">Free With Prime</h2>
-      <div class="free-game">
-        <img src="#" alt="" class="free-game__pic">
-        <p class="free-game__text">For Honor tm Twitch Prime Bundle</p>
-        <p class="free-game__subtext">For Honor</p>
-      </div>
-      <div class="free-game">
-        <img src="#" alt="" class="free-game__pic">
-        <p class="free-game__text">Combat Comics Pack</p>
-        <p class="free-game__subtext">comiXology</p>
-      </div>
-
-      <h2 class="sidebar-heading">Recommended Channels</h2>
+      <h2 class="sidebar__heading">Free With Prime <i class="fa fa-angle-down" aria-hidden="true"></i></h2>
 
       <div class="free-game">
-        <img src="#" alt="" class="free-game__pic">
-        <p class="free-game__text">ScaldingHotSoup</p>
-        <p class="free-game__subtext">streaming Magic: The Gathering</p>
+        <img src="https://screenshots.en.sftcdn.net/en/scrn/6656000/6656751/ftl-faster-than-light-09-668x535.jpg" height="40px" width="40px" alt="" class="free-game__pic">
+        <div class="free-game__info">
+          <p class="free-game__text">For Honor tm Twitch Prime Bundle</p>
+          <p class="free-game__subtext">For Honor</p>
+        </div>
       </div>
       <div class="free-game">
-        <img src="#" alt="" class="free-game__pic">
-        <p class="free-game__text">dreamhackcs</p>
-        <p class="free-game__subtext">streaming Counter-Strike: Glo...</p>
-      </div>
-      <div class="free-game">
-        <img src="#" alt="" class="free-game__pic">
-        <p class="free-game__text">bifuteki</p>
-        <p class="free-game__subtext">streaming Street Fighter V</p>
+        <img src="https://screenshots.en.sftcdn.net/en/scrn/6656000/6656751/ftl-faster-than-light-09-668x535.jpg" height="40px" width="40px" alt="" class="free-game__pic">
+        <div class="free-game__info">
+          <p class="free-game__text">Combat Comics Pack</p>
+          <p class="free-game__subtext">comiXology</p>
+        </div>
       </div>
 
-      <h2 class="sidebar-heading">More at twitch</h2>
+      <h2 class="sidebar__heading">Recommended Channels</h2>
+
+      <div class="free-game">
+        <img src="https://screenshots.en.sftcdn.net/en/scrn/6656000/6656751/ftl-faster-than-light-09-668x535.jpg" height="40px" width="40px" alt="" class="free-game__pic">
+        <div class="free-game__info">
+          <p class="free-game__text">ScaldingHotSoup</p>
+          <p class="free-game__subtext">streaming Magic: The Gathering</p>
+        </div>
+      </div>
+      <div class="free-game">
+        <img src="https://screenshots.en.sftcdn.net/en/scrn/6656000/6656751/ftl-faster-than-light-09-668x535.jpg" height="40px" width="40px" alt="" class="free-game__pic">
+        <div class="free-game__info">
+          <p class="free-game__text">dreamhackcs</p>
+          <p class="free-game__subtext">streaming Counter-Strike: Glo...</p>
+        </div>
+      </div>
+      <div class="free-game">
+        <img src="https://screenshots.en.sftcdn.net/en/scrn/6656000/6656751/ftl-faster-than-light-09-668x535.jpg" height="40px" width="40px" alt="" class="free-game__pic">
+        <div class="free-game__info">
+          <p class="free-game__text">bifuteki</p>
+          <p class="free-game__subtext">streaming Street Fighter V</p>
+        </div>
+      </div>
+
+      <h2 class="sidebar__heading">More at twitch</h2>
       <ul class="more">
-        <li class="more-item">About</li>
-        <li class="more-item">Blog</li>
-        <li class="more-item">Cookie Policy</li>
-        <li class="more-item">Help</li>
-        <li class="more-item">Language</li>
-        <li class="more-item">Partners</li>
-        <li class="more-item">Store</li>
-        <li class="more-item">Advertisers</li>
-        <li class="more-item">Creative</li>
-        <li class="more-item">Developers</li>
-        <li class="more-item">Jobs</li>
-        <li class="more-item">Music</li>
-        <li class="more-item">Press</li>
-        <li class="more-item">Terms</li>
+        <li class="more__item">About</li>
+        <li class="more__item">Blog</li>
+        <li class="more__item">Cookie Policy</li>
+        <li class="more__item">Help</li>
+        <li class="more__item">Language</li>
+        <li class="more__item">Partners</li>
+        <li class="more__item">Store</li>
+        <li class="more__item">Advertisers</li>
+        <li class="more__item">Creative</li>
+        <li class="more__item">Developers</li>
+        <li class="more__item">Jobs</li>
+        <li class="more__item">Music</li>
+        <li class="more__item">Press</li>
+        <li class="more__item">Terms</li>
       </ul>
 
       <div class="foot">
-        <a href="#" class="foot-link">Log In</a>
-        <a href="#" class="foot-link">Sign Up</a>
+        <a href="#" class="foot__link">Log In</a>
+        <a href="#" class="foot__link">Sign Up</a>
       </div>
 
     </div>
 
   </div>
   <div class="middle">
-    <p>Hi there</p>
+    <!-- Should be empty. Will fill in with javascript  -->
   </div>
-  <div class="right"></div>
+
+  <div class="right">
+    <h2 class="right__heading">You're not logged in!</h2>
+    <p class="right__message">If you don't have an account, go ahead and sign up.
+    It takes like two seconds and it's totally worth it.</p>
+
+    <ul class="perks-list">
+      <li class="perks-list__perk">Follow channels you enjoy watching</li>
+      <li class="perks-list__perk">Get notifications when they go live</li>
+      <li class="perks-list__perk">Chat with your fellow viewers</li>
+      <li class="perks-list__perk">Send and receive direct messages</li>
+      <li class="perks-list__perk">Start your own broadcast</li>
+    </ul>
+
+    <div class="right-buttons">
+      <button class="right-buttons__btn">Log In</button>
+      <button class="right-buttons__btn">Sign Up</button>
+    </div>
+
+  </div>
 
 
   <script src="/app.js" charset="utf-8"></script>

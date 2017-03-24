@@ -8,7 +8,9 @@ export default function addGamesToList(parentEl, data) {
   // append that resulting element to the parent element
   // that is sent in to the addGamesToList function
   for (let i = 0; i < data.length; i += 1) {
-    const gameObj = data[i];
+    // game obj isn't the element
+    // just the object data for that element4
+    const gameObj = data[i].game;
     const resultingElement = createGameItem(gameObj);
 
     parentEl.appendChild(resultingElement);
