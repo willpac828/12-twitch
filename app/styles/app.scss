@@ -3,12 +3,14 @@
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
-$c-white: #eee;
+$c-white: #fff;
+$c-right: #f1f1f1;
 $c-2ndfont: #a19d9d;
-$c-sidebar: #1a141d;
+$c-sidebar: #221926;
 $c-primary: #a755c6;
 $c-secondary: #682f7d;
-$c-tertiary: #221826;
+$c-tertiary: #2b1534;
+$c-black: #000;
 
 $m-gutter: 1rem;
 
@@ -18,100 +20,47 @@ $font: 'Titillium Web', sans-serif;
 @import 'box-sizing';
 @import 'nav';
 @import 'resets';
+@import 'sidebar';
 
 
 
-* {
-  color: $c-white;
-  font-family: sans-serif;
-}
-
-.sidebar {
-  max-width: 20%;
-  padding: 1rem;
-  background-color: $c-sidebar;
-
-
-
-
-  &__container {
-
-
-  }
+.right {
+  padding: $m-gutter;
+  background-color: $c-right;
+  font-family: $font;
 
   &__heading {
-    padding: $m-gutter / 2;
-    border-bottom: 1px solid $c-secondary;
+    color: $c-black;
+    font-family: $font;
+    font-size: 2rem;
+  }
+
+  &__message {
+    color: $c-black;
+    font-family: $font;
+  }
+}
+
+.perks-list {
+
+  &__perk {
+    margin: ($m-gutter / 2) 0;
+    padding: ($m-gutter / 2);
+    border-left: 4px solid $c-tertiary;
+    background-color: $c-white;
+    color: $c-black;
+    font-family: $font;
+  }
+}
+
+.right-buttons {
+
+  &__btn {
+    margin-right: $m-gutter;
+    padding: $m-gutter / 1.5 $m-gutter;
+    border: 0;
+    background-color: $c-tertiary;
     font-family: $font;
     font-size: 1rem;
   }
-}
-
-
-.fa-angle-down {
-  margin-left: $m-gutter * 3;
-}
-
-.browse {
-  margin: 0 -1rem;
-  padding: $m-gutter / 2;
-  border-left: 3px solid $c-primary;
-  background-color: $c-tertiary;
-  font-family: $font;
-}
-
-.fa-gamepad {
-  margin: 0 $m-gutter;
-}
-
-.free-game {
-  display: flex;
-  font-family: $font;
-
-  &__text {
-    margin: 0;
-  }
-
-  &__subtext {
-    margin-top: 0;
-    color: $c-2ndfont;
-    font-size: 0.75rem;
-  }
-}
-
-.more {
-  display: flex;
-  flex-wrap: wrap;
-
-  &__item {
-    flex-basis: calc(100% / 2 - 2rem);
-    margin: $m-gutter / 2;
-    color: $c-2ndfont;
-    font-size: 0.75rem;
-  }
-}
-
-.foot {
-  display: flex;
-
-
-  &__link {
-    text-decoration: none;
-    background-color: $c-secondary;
-    padding: $m-gutter / 1.5 $m-gutter;
-    margin: $m-gutter / 2;
-
-  }
-}
-
-
-
-
-
-.middle {
-  background-color: blue;
-}
-
-.right {
-  background-color: green;
 }
