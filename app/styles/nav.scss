@@ -4,14 +4,14 @@
   &__bar {
     display: flex;
     align-items: center;
-    border: 1px solid #a755c6;
+    border: 1px solid $c-primary;
   }
 
   &-logo {
     max-width: 50%;
     margin: 0.5rem;
+    margin-bottom: 1rem;
     color: $c-white;
-
   }
 
   &-search {
