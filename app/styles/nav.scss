@@ -1,0 +1,27 @@
+.nav {
+  text-align: center;
+
+  &__bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid $c-primary;
+  }
+
+  &-logo {
+    max-width: 50%;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    color: $c-white;
+  }
+
+  &-search {
+    width: 100%;
+    padding: 0.5rem;
+    border: 0;
+    background-color: #221826;
+  }
+}
+
+.fa-search {
+  margin-left: $m-gutter / 2;
+}

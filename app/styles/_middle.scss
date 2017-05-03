@@ -1,0 +1,52 @@
+.middle {
+  flex-grow: 1;
+  padding: $m-gutter * 2;
+  &__heading {
+    margin-top: 0;
+    color: $c-black;
+    font-family: $font;
+  }
+
+  &__headings {
+    border-bottom: 2px solid $c-tertiary;
+  }
+}
+
+.browse-button {
+  padding: $m-gutter / 2;
+  border: 0;
+  background: none;
+  color: $c-secondary;
+  font-size: 1rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-item {
+  flex-basis: calc(100% / 3 - 2rem);
+  margin: $m-gutter;
+
+  &__pic {
+    margin-: 0;
+  }
+
+  &__name {
+    margin: 0;
+    color: $c-black;
+    font-family: $font;
+  }
+
+  &__popularity {
+    margin: 0;
+    color: $c-black;
+    font-family: $font;
+  }
+}
+
+.fa-level-down {
+  margin-left: $m-gutter;
+  color: $c-black;
+}

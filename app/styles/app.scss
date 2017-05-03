@@ -1,6 +1,25 @@
 // @import 'yoga-sass/assets/yoga';
 // @import 'normalize-css/normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+
+$c-white: #fff;
+$c-right: #f1f1f1;
+$c-2ndfont: #a19d9d;
+$c-sidebar: #221926;
+$c-primary: #a755c6;
+$c-secondary: #682f7d;
+$c-tertiary: #2b1534;
+$c-black: #000;
+
+$m-gutter: 1rem;
+
+$font: 'Titillium Web', sans-serif;
+
 @import 'font-awesome';
 @import 'box-sizing';
+@import 'nav';
+@import 'resets';
+@import 'sidebar';
+@import 'right';
+@import 'middle';

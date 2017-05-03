@@ -74,6 +74,7 @@ function testUiForItem(el, item, assert, msgPrefix) {
     `${msgPrefix}: The game item pic has an alt from the game item's name`);
 }
 
+import addGamesToList from '../../app/twitch/add-games-to-list';
 
 test('it can add games to the list of games', (assert) => {
   const parentEl = document.createElement('div');
